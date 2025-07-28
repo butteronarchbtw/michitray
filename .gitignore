@@ -2,6 +2,7 @@ build/
 mp3/*
 !mp3/
 !mp3/meson.build
+!mp3/silence.mp3
 compile_commands.json
 .cache/
 *~

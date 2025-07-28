@@ -1,5 +1,12 @@
 #include "Indicator.hpp"
 
+#ifndef NGTK
+#ifndef APP_IS_INDICATOR
+#define APP_IS_INDICATOR(obj)                                                  \
+    (G_TYPE_CHECK_INSTANCE_TYPE((obj), APP_INDICATOR_TYPE))
+#endif
+#endif
+
 Indicator::Indicator()
 {
 #ifndef NGTK
