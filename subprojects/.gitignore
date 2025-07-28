@@ -1,0 +1,5 @@
+*
+!.gitignore
+!.dockerignore
+!miniaudio.wrap
+!catch2.wrap
